@@ -28,4 +28,3 @@ Very long, realistically I expect 10-20 years of development (if somehow no one 
 Yes, there is. I will put raw documentation in `documentation/raw` directory. It consist technical scientific papers, technical discussion, and any document before structural formatting.
 
 The more easy to read documentation will be written along the way.
-
