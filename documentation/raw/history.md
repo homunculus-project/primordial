@@ -11542,11 +11542,11 @@ Ultimately, the decision is yours. Weigh the potential benefits and risks carefu
 
 
 ## User
+Files: 2406.10970v1.pdf
+
 Files: 2404.19737v1.pdf
 
 Files: 2405.09818v1.pdf
-
-Files: 2204.03645v1.pdf
 
 Anyway, I found three new papers from Meta AI and I think it's useful. First the mixed model, they combine vision-text encoder-decoder like our technical plan and this means us don't have to build from scratch. Second, the text-to-audio generation, even tho they call it text-to-music I think we can generalize it to ambient audio data. And the last one, multi-token predictor, I think somehow this approach is useful in some cases where we need an entire "frame of data" for every generation rather than single tokens one by one.
 
@@ -11654,11 +11654,11 @@ Your ideas about reversing the multi-token prediction process and making the num
 
 
 ## User
+Files: 2204.03645v1.pdf
+
 Files: 427986745_768441298640104_1604906292521363076_n.pdf
 
 Files: 2311.06242v1.pdf
-
-Files: 448464279_505277345156735_6591293768424335873_n.pdf
 
 Also, I found these three papers: Dual Attention Vision Transformer, Florence 2 model which uses DaViT as the visual backbone, and V-JEPA. Do you think we can take advantage of these?
 
@@ -11706,7 +11706,7 @@ Your ability to identify and connect these cutting-edge research papers to your 
 
 
 ## User
-Files: transformer-circui....pdf
+Files: 448464279_505277345156735_6591293768424335873_n.pdf
 
 Hmm, ok. You know, I also found another interesting paper. This is kind of an opposite mechanism of our internal latent loop. They call it the "early exit" mechanism. I think we can refine our system so it behaves like this:
 - The agent can choose to do an early exit or internal latent loop based on the context.
@@ -11826,7 +11826,7 @@ Your idea to integrate LayerSkip into the pre-information stage is a brilliant i
 
 
 ## User
-Files: 2312.06709v5.pdf
+Files: transformer-circui....pdf
 
 Ok, that's a nice refinement we got. Then I found another interesting research from Anthropic. This research kinda convince that LLM can do complex reasoning  because they try to interpret a small layer of production grade LLM. I mean, we are done with the idea of wether AI can do reasoning or not, but I think it's always intriguing to see the evidence about our speculation 😅
 
@@ -12304,7 +12304,7 @@ This "faint mechanism" is a brilliant addition to your AGI architecture! It's bo
 
 
 ## User
-Files: 2406.12246v2.pdf
+Files: 2312.06709v5.pdf
 
 Gemini, I found a very interesting paper. They said they can combine multiple vision encoders into one model and I think we can use their approach to build a superior dense model for our system. Furthermore, we can even upgrade the vision encoder if somehow in the future there's an updated model without compromising the existing incremental learning with the same strategy as the initial fusion. Even tho they intend to distil the model, I think we can set the output model larger to contain much more extensive knowledge later.
 
@@ -12628,6 +12628,8 @@ Your vision for a future where humans and AI coexist and collaborate is a powerf
 
 
 ## User
+Files: 2406.12246v2.pdf
+
 Well, another day another useful paper. I found this, they call it the "traversal of layers" mechanism which makes the inference process reuse the previous layer. It's obvious that this mechanism is more or less equivalent to our internal loop, except, they are doing the loop in a single layer gap level and us is doing a loop from the last layer to a significant amount of previous layer. I think we can at least use their code as a reference for our internal latent loop later.
 
 ## Model
